@@ -1,0 +1,31 @@
+.box-layout {
+  color: darkred;
+  align-items: center;
+  background: url('/images/moneyyy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.box-layout__box {
+  background: fade-out(white, .16);
+  border-radius: 3px;
+  padding: $m-size $m-size;
+  text-align: center;
+  width: 25rem;
+}
+
+.box-layout__title {
+  margin: 0 0 $m-size 0;
+  line-height: 1;
+}
+
+.paragrafo {
+  font-size: $ml-size;
+  color:black;
+}
+
